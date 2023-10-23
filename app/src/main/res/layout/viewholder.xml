@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:elevation="3dp"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/removeFeeder"
+
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic1" />
+
+    <TextView
+
+        android:id="@+id/feederName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="14sp"
+        android:lines="2"
+        android:gravity="center"
+        android:background="@drawable/background_title_news"
+        app:layout_constraintBottom_toBottomOf="@+id/removeFeeder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
